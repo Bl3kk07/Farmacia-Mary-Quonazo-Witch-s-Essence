@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Farmacia Mary Quonazo - Cargando</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #37482c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      animation: zoomInOut 4s ease-in-out forwards;
+    }
+
+    @keyframes zoomInOut {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+      25% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      75% {
+        transform: scale(1.5);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(0);
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="1 sin título_20250507183022.png" alt="Logo" class="logo" />
+
+  <script>
+    setTimeout(() => {
+      window.location.href = "main.html";
+    }, 4000);
+  </script>
+</body>
+</html>

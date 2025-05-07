@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo de Productos - Witch's Essence</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background-color: white;
+      color: #2e463c;
+    }
+
+    header {
+      background-color: #2e463c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product {
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      gap: 30px;
+    }
+
+    .product img {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+
+    .product-info {
+      flex: 1;
+    }
+
+    .product-info h2 {
+      margin-top: 0;
+      font-size: 1.5em;
+    }
+
+    .price {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .promo {
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      text-align: center;
+      font-size: 1.2em;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  Witch's Essence - Catálogo
+</header>
+
+<div class="container">
+
+  <div class="product">
+    <img src="repair_gel.jpg" alt="Gel facial reparador nocturno">
+    <div class="product-info">
+      <h2>Gel facial reparador nocturno</h2>
+      <p class="price">Precio: $39.99</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="facial_mask.jpg" alt="Mascarilla revitalizante con efecto barrera">
+    <div class="product-info">
+      <h2>Mascarilla revitalizante con efecto barrera</h2>
+      <p class="price">Precio: $48.99</p>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="serúm.jpg" alt="Sérum hidratante antiestrés">
+    <div class="product-info">
+      <h2>Sérum hidratante antiestrés</h2>
+      <p class="price">Precio: $59.99</p>
+    </div>
+  </div>
+
+  <div class="promo">
+    <strong>¡Promoción Especial!</strong><br>
+    Llévate los tres productos por solo <strong>$84.40</strong>
+  </div>
+
+</div>
+
+</body>
+</html>
